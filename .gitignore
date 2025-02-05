@@ -1,0 +1,42 @@
+# 🐍 Python-Bytecode & Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# 🚀 Virtuelle Umgebung (falls `venv` im Projektverzeichnis liegt)
+venv/
+env/
+*.venv
+
+# 🧠 Modelldateien & große Daten
+models/*.pkl
+models/*.h5
+models/*.onnx
+
+# 📜 Log-Dateien
+logs/
+*.log
+
+# 📓 Jupyter Notebook-Checkpoints
+notebooks/.ipynb_checkpoints/
+
+# 🔄 Daten-Backups oder temporäre Dateien
+data/*.bak
+data/*.tmp
+data/*.log
+data/*.jsonl
+
+# 🍏 MacOS System-Dateien
+.DS_Store
+
+# 📊 Ignoriere alle CSV-Daten außer `abteilungen.csv`
+data/*
+!data/abteilungen.csv
+
+# 💻 IDE-spezifische Dateien (VS Code, PyCharm)
+.vscode/
+.idea/
+*.iml
