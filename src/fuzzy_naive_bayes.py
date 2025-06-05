@@ -12,7 +12,7 @@ from difflib import get_close_matches
 
 
 # Daten laden
-file_produkte = "produkte abteilungen.csv"
+file_produkte = "data/produkte abteilungen.csv"
 df = pd.read_csv(file_produkte)
 
 
